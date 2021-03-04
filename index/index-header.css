@@ -79,6 +79,7 @@
     width: 100%;
     height: 2px;
     background-color: #616161;
+    transition: all 2s;
   }
 
   .menu__btn > span::before {
@@ -108,6 +109,7 @@
     background-color: #eceff1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     z-index: 2;
+    transition: all 2s;
   }
 
   .menu__item {
