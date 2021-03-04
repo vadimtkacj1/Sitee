@@ -1,0 +1,22 @@
+.box {
+  width: 61.3%;
+}
+
+.box__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+  }
+}
