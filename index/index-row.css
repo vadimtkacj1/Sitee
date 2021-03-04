@@ -1,0 +1,58 @@
+.row {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.row__line_size {
+  height: 19px;
+  width: 99%;
+}
+
+.row__paragraph {
+  font-family: "Bebas Neue";
+  font-size: 18pt;
+  color: #e8603c;
+  display: flex;
+  margin-right: 20px;
+  width: 22%;
+}
+
+.row__img {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .row {
+    width: 100%;
+  }
+
+  .row__line_size {
+    width: 100%;
+  }
+
+  .row__paragraph {
+    font-size: 14pt;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .row {
+    width: 100%;
+  }
+
+  .row__line_size {
+    width: 100%;
+  }
+
+  .row__paragraph {
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    margin: 0;
+  }
+}
