@@ -1,388 +1,282 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0"
-    />
-    <title>Мой сайт3</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="index/index-header.css" />
-    <link rel="stylesheet" href="index/index-cover.css" />
-    <link rel="stylesheet" href="index/index-block.css" />
-    <link rel="stylesheet" href="index/index-card.css" />
-    <link rel="stylesheet" href="index/index-row.css" />
-    <link rel="stylesheet" href="index/index-icon.css" />
-    <link rel="stylesheet" href="index/index-footer.css" />
-    <link rel="stylesheet" href="font.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="heading">
-          <div class="logo">
-            <img src="img/JETRO.png" alt="" class="logo__img" />
-          </div>
-          <nav class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-            <ul class="menu">
-              <li class="menu__line">
-                <a href="index.html" class="menu__item menu__item_active"
-                  >Home</a
-                >
-              </li>
-              <li class="menu__line">
-                <a href="about.html" class="menu__item">About Us</a>
-              </li>
-              <li class="menu__line">
-                <a href="blog.html" class="menu__item">Blog</a>
-              </li>
-              <li class="menu__line">
-                <a href="portfolio.html" class="menu__item">Portfolio</a>
-              </li>
-              <li class="menu__line">
-                <a href="contact.html" class="menu__item">Contact US</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <section>
-      <div class="container">
-        <div class="cover">
-          <h1 class="cover__heading">Home</h1>
-        </div>
-      </div>
-    </section>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<title>Мой сайт3</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="index/index-header.css">
+	<link rel="stylesheet" href="index/index-cover.css">
+	<link rel="stylesheet" href="index/index-block.css">
+	<link rel="stylesheet" href="index/index-card.css">
+	<link rel="stylesheet" href="index/index-row.css">
+	<link rel="stylesheet" href="index/index-icon.css">
+	<link rel="stylesheet" href="index/index-footer.css">
+	<link rel="stylesheet" href="font.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="heading">
+				 <div class="logo">
+					<img src="img/JETRO.png" alt="" class="logo__img">
+				</div> 
+                <nav class="hamburger-menu"> 
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+					  <span></span>
+					</label>
+					<ul class="menu">	
+						<li class="menu__line">
+							<a href="index.html" class="menu__item menu__item_active">Home</a>
+						</li>
+						<li class="menu__line">
+							<a href="about.html" class="menu__item">About Us</a>
+						</li>
+						<li class="menu__line">
+							<a href="blog.html" class="menu__item">Blog</a>
+						</li>
+						<li class="menu__line">
+							<a href="portfolio.html" class="menu__item">Portfolio</a>
+						</li>
+						<li class="menu__line">
+							<a href="contact.html" class="menu__item">Contact US</a>
+						</li>
+					</ul>
+				</nav>
+			</div>		
+		</div>		
+	</header> 
+	<section>
+		<div class="container">		   	
+			<div class="cover">			
+				<h1 class="cover__heading">Home</h1>
+			</div>
+	   </div>
+   </section> 
+   
+	<section>
+		<div class="container">
+			<div class="block">	
+				<div class="block__line_left"></div>	
+					<input checked type="radio" name="respond" id="desktop">
+					<article id="slider">
+						<input checked type="radio" name="slider" id="switch1">
+						<input type="radio" name="slider" id="switch2">
+						<input type="radio" name="slider" id="switch3">
+						<div id="slides">
+							<div id="owerflow">
+								<div class="img">
+									<article><img src="img/img.jpg" alt="" class="cover__img"></article>
+									<article><img src="img/carts.jpg" alt="" class="cover__img"></article>
+									<article><img src="img/cats2.jpg" alt="" class="cover__img"></article>
+								</div>
+							</div>							
+						</div>
+						<div id="controls">
+							<label for="switch1"></label>
+							<label for="switch2"></label>
+							<label for="switch3"></label>
+						</div>
+						<div id="active">
+							<label for="switch1"></label>
+							<label for="switch2"></label>
+							<label for="switch3"></label>
+						</div>
+					</article> 
+				<div class="block__line_right"></div>		
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="container-card">
+			
+				<div class="card">
+					<div class="card__img">
+						<div class="card__img_left"><img src="img/img.png" alt="" class="card__img_size"></div>
+						<div class="card__img_right"><img src="img/img2.png" alt="" class="card__img_size"></div>
+					</div>
+					<div class="card__block">
+						<div class="card__text">
+							<div class="card__text_img"><img src="img/icon.png" alt=""></div>
+						<h3 class="card__heading">Check  out  my  latest portfolio  items</h3>
+						</div>
+						<p class="card__paragraph">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+						<div>
+							<a href="#"  class="button">
+								More
+							</a>
+						</div>
+					</div>
+				</div>			
+				<div class="card">
+					<div class="card__img">
+						<div class="card__img_left"><img src="img/img3.png" alt="" class="card__img_size"></div>
+						<div class="card__img_right"><img src="img/img4.png" alt="" class="card__img_size"></div>
+					</div>
+				<div class="card__block">
+					<div class="card__text">
+						<div class="card__text_img"><img src="img/icon2.png" alt=""></div>
+						<h3 class="card__heading">Offer  Top  Notch  Quality  Work  &  Services</h3>
+					</div>
+						<p class="card__paragraph">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+					<div>
+						<a href="#"  class="button">
+							More
+						</a>
+					</div>
+				</div>
+				</div>		
+				<div class="card">
+					<div class="card__img">
+						<div class="card__img_left"><img src="img/img5.png" alt="" class="card__img_size"></div>
+						<div class="card__img_right"><img src="img/img6.png" alt=""class="card__img_size"></div>
+					</div>
+				<div class="card__block">
+					<div class="card__text">
+						<div  class="card__text_img"><img src="img/icon3.png" alt=""></div>
+						<h3 class="card__heading">Follow  Me  on  Twitter, Facebook  &  Pinterest</h3>
+					</div>
+					<p class="card__paragraph">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+					<div>
+						<a href="#"  class="button">
+							More
+						</a>
+					</div>
+				</div>
+				</div>		
 
-    <section>
-      <div class="container">
-        <div class="block">
-          <div class="block__line_left"></div>
-          <input checked type="radio" name="respond" id="desktop" />
-          <article id="slider">
-            <input checked type="radio" name="slider" id="switch1" />
-            <input type="radio" name="slider" id="switch2" />
-            <input type="radio" name="slider" id="switch3" />
-            <div id="slides">
-              <div id="owerflow">
-                <div class="img">
-                  <article>
-                    <img src="img/img.jpg" alt="" class="cover__img" />
-                  </article>
-                  <article>
-                    <img src="img/carts.jpg" alt="" class="cover__img" />
-                  </article>
-                  <article>
-                    <img src="img/cats2.jpg" alt="" class="cover__img" />
-                  </article>
-                </div>
-              </div>
-            </div>
-            <div id="controls">
-              <label for="switch1"></label>
-              <label for="switch2"></label>
-              <label for="switch3"></label>
-            </div>
-            <div id="active">
-              <label for="switch1"></label>
-              <label for="switch2"></label>
-              <label for="switch3"></label>
-            </div>
-          </article>
-          <div class="block__line_right"></div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="container-card">
-          <div class="card">
-            <div class="card__img">
-              <div class="card__img_left">
-                <img src="img/img.png" alt="" class="card__img_size" />
-              </div>
-              <div class="card__img_right">
-                <img src="img/img2.png" alt="" class="card__img_size" />
-              </div>
-            </div>
-            <div class="card__block">
-              <div class="card__text">
-                <div class="card__text_img">
-                  <img src="img/icon.png" alt="" />
-                </div>
-                <h3 class="card__heading">
-                  Check out my latest portfolio items
-                </h3>
-              </div>
-              <p class="card__paragraph">
-                Maecenas ipsum metus, semper hendrerit varius mattis, congue sit
-                amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-                elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-                pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-                sodales nibh non lectus tempor a interdum justo ultricies.
-              </p>
-              <div>
-                <a href="#" class="button"> More </a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__img">
-              <div class="card__img_left">
-                <img src="img/img3.png" alt="" class="card__img_size" />
-              </div>
-              <div class="card__img_right">
-                <img src="img/img4.png" alt="" class="card__img_size" />
-              </div>
-            </div>
-            <div class="card__block">
-              <div class="card__text">
-                <div class="card__text_img">
-                  <img src="img/icon2.png" alt="" />
-                </div>
-                <h3 class="card__heading">
-                  Offer Top Notch Quality Work & Services
-                </h3>
-              </div>
-              <p class="card__paragraph">
-                Maecenas ipsum metus, semper hendrerit varius mattis, congue sit
-                amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-                elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-                pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-                sodales nibh non lectus tempor a interdum justo ultricies.
-              </p>
-              <div>
-                <a href="#" class="button"> More </a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__img">
-              <div class="card__img_left">
-                <img src="img/img5.png" alt="" class="card__img_size" />
-              </div>
-              <div class="card__img_right">
-                <img src="img/img6.png" alt="" class="card__img_size" />
-              </div>
-            </div>
-            <div class="card__block">
-              <div class="card__text">
-                <div class="card__text_img">
-                  <img src="img/icon3.png" alt="" />
-                </div>
-                <h3 class="card__heading">
-                  Follow Me on Twitter, Facebook & Pinterest
-                </h3>
-              </div>
-              <p class="card__paragraph">
-                Maecenas ipsum metus, semper hendrerit varius mattis, congue sit
-                amet tellus. Aliquam ullamcorper dui sed magna posue re ut
-                elementum enim rutrum. Nam mi erat, porta id ultrices nec,
-                pellentesque vel nunc. Cras varius fermentum iaculis. Aenean
-                sodales nibh non lectus tempor a interdum justo ultricies.
-              </p>
-              <div>
-                <a href="#" class="button"> More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+		</div>
+		</div>
+	</section> 
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="row__paragraph"><p>Recent Works</p></div>
-          <div class="row__img">
-            <img src="img/Line.png" alt="" class="row__line_size" />
-          </div>
-        </div>
-      </div>
-    </section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="row__paragraph"><p>Recent  Works</p></div>
+				<div class="row__img"><img src="img/Line.png" alt="" class="row__line_size"></div>
+			</div>
+		</div>
+	</section>
 
-    <section>
-      <div class="container">
-        <div class="container-icon">
-          <div class="icon">
-            <div class="icon__nav">
-              <ul class="icon__transformation">
-                <li class="icon__transformation_li">
-                  <div class="icon__nav_img">
-                    <img src="img/i1.png" alt="" class="icon__size-img" />
-                  </div>
-                  <a href="(portfolio)SliderPlugin.html"
-                    ><span class="icon__transformation_fon"></span
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="icon__text">
-              <h3 class="icon__heading">Brochure Design</h3>
-              <div class="icon__paragraph"><p>June 15, 2012</p></div>
-            </div>
-          </div>
+	<section>
+		<div class="container">
+			<div class="container-icon">			
+				<div class="icon">			
+					<div class="icon__nav">	
+						<ul class="icon__transformation">
+								<li class="icon__transformation_li">
+									<div class="icon__nav_img"><img src="img/i1.png" alt="" class="icon__size-img"></div>
+									<a href="(portfolio)SliderPlugin.html"><span class="icon__transformation_fon"></span></a>
+								</li>
+						</ul>
+					</div>
+						<div class="icon__text">
+						<h3 class="icon__heading">Brochure  Design</h3>
+						<div class="icon__paragraph"><p>June 15, 2012</p></div>
+					</div>
+				</div>
+				
+				<div class="icon">			
+					<div class="icon__nav">	
+						<ul class="icon__transformation">
+								<li class="icon__transformation_li">
+									<div class="icon__nav_img"><img src="img/i2.png" alt="" class="icon__size-img"></div>
+									<a href="(portfolio)SliderPlugin.html"><span class="icon__transformation_fon"></span></a>
+								</li>
+						</ul>
+					</div>
+						<div class="icon__text">
+						<h3 class="icon__heading">Brochure  Design</h3>
+						<div class="icon__paragraph"><p>June 15, 2012</p></div>
+					</div>
+				</div>			
+				<div class="icon">			
+					<div class="icon__nav">	
+						<ul class="icon__transformation">
+							<li class="icon__transformation_li">
+								<div class="icon__nav_img"><img src="img/i3.png" alt="" class="icon__size-img"></div>
+								<a href="(portfolio)SliderPlugin.html"><span class="icon__transformation_fon"></span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="icon__text">
+						<h3 class="icon__heading">Social Media Buttons</h3>
+						<div class="icon__paragraph"><p>June 15, 2012</p></div>
+					</div>
+				</div>				
+				<div class="icon">			
+					<div class="icon__nav">	
+						<ul class="icon__transformation">
+								<li class="icon__transformation_li">
+								<div class="icon__nav_img"><img src="img/i4.png" alt="" class="icon__size-img"></div>
+								<a href="(portfolio)SliderPlugin.html"><span class="icon__transformation_fon"></span></a>
+								</li>
+						</ul>
+					</div>
+						<div class="icon__text">
+						<h3 class="icon__heading">Brochure  Design</h3>
+						<div class="icon__paragraph"><p>June 15, 2012</p></div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		</section>
+		
+		<footer>
+			<div class="container">
+			<div class="footer">
+			
+			<div class="footer__line_left">
+				
+			</div>
+			
+			
+			<div class="case">
+				<div class="footer__block">
+					<div class="footer__piece">
+						<h3 class="footer__heading">About  Jetro</h3>
+						<div class="footer__paragraph"><p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. 
+							
+							<br><br>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p></div>
+						</div>
+						
+						<div class="footer__piece">
+							<h3 class="footer__heading">Twitter  Widget</h3>
+							
+							<div class="footer__email">@pixelmater</div>
+							<p class="footer__paragraph">What an awesome design with great functionality :)</p><br><br>		
+							
+							<span class="footer__addition">about 1 hour ago</span><br><br>
+							<div class="footer__email">@designdude</div> 
+							<p class="footer__paragraph">What an awesome design with great functionality :)</p><br><br>
+							<span class="footer__addition">about 2 hour ago</span><br><br>
+							<p class="footer__paragraph">Follow</p>
+							<div class="footer__email">@bestpsdfreebies</div><br>
+						</div>
+						
+						<div class="footer__piece">
+							<h3 class="footer__heading">Contact  Us</h3>
+							<div class="footer__paragraph"><p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.<br><br>information@jetro.com<br> 1.222.333.4444</p><br><br><div>
+								<a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" class="footer__piece_icon"></a>
+								<a href="https://twitter.com/?lang=ru" target="_blank"><img src="img/twitter.png" alt="" class="footer__piece_icon"></a>
+								<a href="https://www.google.com/intl/ru/gmail/about/" target="_blank"><img src="img/email.png" alt="" class="footer__piece_icon"></a>
+								<a href="https://ru.wikipedia.org/wiki/RSS" target="_blank"><img src="img/rss.png" alt="" class="footer__piece_icon"></a>
+								<a href="https://boomstream.com/ru/video-protection.html?referrer=ga-protection-1&gclid=CjwKCAiAsOmABhAwEiwAEBR0Zpeo2gI2EwWcObYnNZ4nA0OAYojWcBP1vO1ws7ykbOfTvfXxeskmfRoCDhEQAvD_BwE" target="_blank"><img src="img/vimeo.png" alt="" class="footer__piece_icon">
+								</a>
+							</div>
+							
+						</div> 
+					</div>
+				</div>
+			</div>
+			<div class="footer__line_right">
+			</div>
+		</div>
+	</div>
+	</footer> 
 
-          <div class="icon">
-            <div class="icon__nav">
-              <ul class="icon__transformation">
-                <li class="icon__transformation_li">
-                  <div class="icon__nav_img">
-                    <img src="img/i2.png" alt="" class="icon__size-img" />
-                  </div>
-                  <a href="(portfolio)SliderPlugin.html"
-                    ><span class="icon__transformation_fon"></span
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="icon__text">
-              <h3 class="icon__heading">Brochure Design</h3>
-              <div class="icon__paragraph"><p>June 15, 2012</p></div>
-            </div>
-          </div>
-          <div class="icon">
-            <div class="icon__nav">
-              <ul class="icon__transformation">
-                <li class="icon__transformation_li">
-                  <div class="icon__nav_img">
-                    <img src="img/i3.png" alt="" class="icon__size-img" />
-                  </div>
-                  <a href="(portfolio)SliderPlugin.html"
-                    ><span class="icon__transformation_fon"></span
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="icon__text">
-              <h3 class="icon__heading">Social Media Buttons</h3>
-              <div class="icon__paragraph"><p>June 15, 2012</p></div>
-            </div>
-          </div>
-          <div class="icon">
-            <div class="icon__nav">
-              <ul class="icon__transformation">
-                <li class="icon__transformation_li">
-                  <div class="icon__nav_img">
-                    <img src="img/i4.png" alt="" class="icon__size-img" />
-                  </div>
-                  <a href="(portfolio)SliderPlugin.html"
-                    ><span class="icon__transformation_fon"></span
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div class="icon__text">
-              <h3 class="icon__heading">Brochure Design</h3>
-              <div class="icon__paragraph"><p>June 15, 2012</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <div class="footer">
-          <div class="footer__line_left"></div>
-
-          <div class="case">
-            <div class="footer__block">
-              <div class="footer__piece">
-                <h3 class="footer__heading">About Jetro</h3>
-                <div class="footer__paragraph">
-                  <p>
-                    Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
-                    vel. Urbanitas adolescens vim te, per at tritani aperiri.
-                    Adhuc invenire convenire his ea. Id mei vitae denique, in
-                    eam commodo veritus disputando.
-
-                    <br /><br />Pro et erant delicata, eu vim essent imperdiet
-                    accommodare, dictas deseruisse ius an. Solet everti
-                    definitionem id ius, sonet oporteat cu vim.
-                  </p>
-                </div>
-              </div>
-
-              <div class="footer__piece">
-                <h3 class="footer__heading">Twitter Widget</h3>
-
-                <div class="footer__email">@pixelmater</div>
-                <p class="footer__paragraph">
-                  What an awesome design with great functionality :)
-                </p>
-                <br /><br />
-
-                <span class="footer__addition">about 1 hour ago</span
-                ><br /><br />
-                <div class="footer__email">@designdude</div>
-                <p class="footer__paragraph">
-                  What an awesome design with great functionality :)
-                </p>
-                <br /><br />
-                <span class="footer__addition">about 2 hour ago</span
-                ><br /><br />
-                <p class="footer__paragraph">Follow</p>
-                <div class="footer__email">@bestpsdfreebies</div>
-                <br />
-              </div>
-
-              <div class="footer__piece">
-                <h3 class="footer__heading">Contact Us</h3>
-                <div class="footer__paragraph">
-                  <p>
-                    Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea
-                    vel. Urbanitas adolescens vim te, per at tritani aperiri.<br /><br />information@jetro.com<br />
-                    1.222.333.4444
-                  </p>
-                  <br /><br />
-                  <div>
-                    <a href="https://www.facebook.com/" target="_blank"
-                      ><img
-                        src="img/facebook.png"
-                        alt=""
-                        class="footer__piece_icon"
-                    /></a>
-                    <a href="https://twitter.com/?lang=ru" target="_blank"
-                      ><img
-                        src="img/twitter.png"
-                        alt=""
-                        class="footer__piece_icon"
-                    /></a>
-                    <a
-                      href="https://www.google.com/intl/ru/gmail/about/"
-                      target="_blank"
-                      ><img
-                        src="img/email.png"
-                        alt=""
-                        class="footer__piece_icon"
-                    /></a>
-                    <a href="https://ru.wikipedia.org/wiki/RSS" target="_blank"
-                      ><img src="img/rss.png" alt="" class="footer__piece_icon"
-                    /></a>
-                    <a
-                      href="https://boomstream.com/ru/video-protection.html?referrer=ga-protection-1&gclid=CjwKCAiAsOmABhAwEiwAEBR0Zpeo2gI2EwWcObYnNZ4nA0OAYojWcBP1vO1ws7ykbOfTvfXxeskmfRoCDhEQAvD_BwE"
-                      target="_blank"
-                      ><img
-                        src="img/vimeo.png"
-                        alt=""
-                        class="footer__piece_icon"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer__line_right"></div>
-        </div>
-      </div>
-    </footer>
-  </body>
+</body>
 </html>
