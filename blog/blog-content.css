@@ -1,7 +1,7 @@
 .box-paper {
   order: 1;
   margin-top: 10px;
-  width: 45%;
+  width: 46.5%;
 }
 
 .box {
@@ -32,7 +32,7 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
 }
 
 .box__text {
@@ -54,7 +54,7 @@
 .box__line {
   margin-bottom: 50px;
   margin-top: 20px;
-  width: 100%;
+  width: 95%;
   height: 19px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .box__decor_img {
-  width: 100%;
+  width: 82%;
 }
 
 @media screen and (max-width: 1024px) {

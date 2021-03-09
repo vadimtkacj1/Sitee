@@ -83,14 +83,14 @@ a {
 .block {
   display: inline-flex;
   justify-content: center;
-  margin-bottom: 17px;
-  width: 84%;
+  margin-bottom: 26px;
+  width: 100%;
 }
 
 .block__line_left {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 79px;
   margin-right: 10px;
 }
@@ -98,7 +98,7 @@ a {
 .block__line_right {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 79px;
   margin-left: 10px;
 }

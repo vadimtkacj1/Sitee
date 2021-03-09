@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 26px;
-  width: 84%;
+  width: 100%;
 }
 
 .cover {
@@ -27,7 +27,7 @@
 .block__line_left {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 79px;
   margin-right: 10px;
 }
@@ -35,10 +35,11 @@
 .block__line_right {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 79px;
   margin-left: 10px;
 }
+
 @media screen and (max-width: 1024px) {
   .block__line_left {
     display: none;

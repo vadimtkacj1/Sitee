@@ -72,6 +72,7 @@ header {
 
   .menu__item_additional {
     margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -139,7 +140,7 @@ header {
     padding: 12px 0 12px 0;
     font-size: 20px;
     margin-right: 30px;
-}
+  }
 
   .menu__item {
     display: block;
