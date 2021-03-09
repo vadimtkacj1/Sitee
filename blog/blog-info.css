@@ -36,7 +36,7 @@
 
 .info-block__text {
   background-color: #f6f6f6;
-  height: 100px;
+  height: 100%;
   width: 53%;
   display: flex;
   align-items: center;
@@ -80,6 +80,7 @@
 
 .info-block__line {
   width: 58.5%;
+  margin-bottom: 50px;
 }
 
 .pages__box_color {
@@ -89,6 +90,7 @@
 @media screen and (max-width: 1024px) {
   .container-info {
     margin: 0;
+    width: 100%;
   }
 
   .info-block {
@@ -133,6 +135,7 @@
 
 @media screen and (max-width: 540px) {
   .container-info {
+    width: 100%;
     margin: 0;
   }
 
@@ -142,6 +145,7 @@
 
   .info-block {
     margin: 0;
+    display: flex;
   }
 
   .info-block__line {
