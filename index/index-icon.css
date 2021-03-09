@@ -54,6 +54,7 @@
 
 .icon__transformation_fon:hover {
   opacity: 1;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1024px) {
