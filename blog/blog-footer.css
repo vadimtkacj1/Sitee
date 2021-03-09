@@ -1,7 +1,7 @@
 .footer__line_left {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 100%;
   margin-right: 10px;
 }
@@ -9,7 +9,7 @@
 .footer__line_right {
   background-color: #f3b29d;
   color: #f3b29d;
-  width: 280px;
+  width: 30.5%;
   height: 100%;
   margin-left: 10px;
 }
@@ -18,7 +18,7 @@
   display: inline-flex;
   justify-content: center;
   padding: 0;
-  width: 84%;
+  width: 100%;
 }
 
 .case {

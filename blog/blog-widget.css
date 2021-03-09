@@ -2,7 +2,6 @@
   width: 15%;
   order: 2;
   margin-top: 10px;
-  margin-left: 30px;
 }
 
 .widget__head_heading {
@@ -48,7 +47,8 @@
 .widget__block {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  flex-wrap: wrap;
+  width: 85%;
 }
 
 .widget__block_indent {

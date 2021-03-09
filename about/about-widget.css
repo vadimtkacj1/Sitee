@@ -47,7 +47,8 @@
 .widget__block {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  flex-wrap: wrap;
+  width: 85%;
 }
 
 .widget__block_indent {
